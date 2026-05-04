@@ -16,7 +16,7 @@ func main() {
 
 	for {
 		led.WriteColors([]color.RGBA{
-			// 検証したところ、しうやら G, R, Bの順番だと思われる
+			// 検証したところ、どうやら G, R, Bの順番だと思われる
 			{R: 0, G: 122, B: 0, A: 255},
 		})
 		time.Sleep(time.Millisecond * 500)
